@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #011638;
+    --secondary-color: #0D5D56;
+    --accent1-color: #78A1BB;
+    --accent2-color: #F9E0D9;
+
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font: 'Montserrat', serif;
+
+    --nav-background-color: #011638;
+    --nav-link-color: #78A1BB;
+    --nav-hover-link-color: #F9E0D9;
+    --nav-hover-background-color: #0D5D56;
+  
+    --heading-font-size: 2rem;
+    --paragraph-font-size: 1rem;
+  
+    --max-content-width: 800px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-size: var(--heading-font-size);
+  }
+  
+  p {
+    color: var(--text-color);
+    font-size: var(--paragraph-font-size);
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  .social-media-link {
+    text-decoration: none;
+  }
+  
+  body {
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+  }
+  
+  .hero {
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    /* top: 20px;
+    left: 20px;
+    color: white; */
+  }
+  
+  .hero article {
+    position: absolute;
+    /* bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 50%;
+    color: white; */
+  }
+  
+  .hero article p {
+    position: absolute;
+    float: right;
+    clear: right;
+  }
+  
+  .hero article img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+  }
+  
