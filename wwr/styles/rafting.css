@@ -47,6 +47,7 @@
   .hero {
     position: relative;
     width: 100%;
+    max-width: 800px;
   }
   
   .hero img {
@@ -57,32 +58,31 @@
   
   .hero h1 {
     position: absolute;
-    /* top: 20px;
-    left: 20px;
-    color: white; */
+    top: 20px;
+    left: 270px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   .hero article {
     position: absolute;
-    /* bottom: 20px;
-    right: 20px;
+    bottom: 200px;
+    right: 200px;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    width: 50%;
-    color: white; */
+    padding: 30px;
+    width: 60%;
+    color: white;
   }
   
   .hero article p {
-    position: absolute;
-    float: right;
-    clear: right;
+    margin: 0 0 10px;
   }
   
   .hero article img {
-    position: absolute;
-    max-width: 100%;
+    width: 200px;
     height: auto;
     float: right;
     margin-left: 10px;
   }
+  
   
