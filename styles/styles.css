@@ -6,7 +6,10 @@
 
 .grid {
     display: grid;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 header, footer, .grid {
@@ -52,6 +55,7 @@ p {
 main {
     max-width: 840px;
     grid-column: 2/3;
+    grid-row: 1/2;
     margin: 1rem;
 }
 
@@ -80,13 +84,12 @@ footer {
     text-align: center;
 }
 
-/* Class Selectors */
 
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    background-color: #5a0202;
+    background-color: #2c85eb;
     color: #010c04;
 }
 
