@@ -26,13 +26,13 @@ nav {
 }
 
 nav a {
-    color: rgb(252, 250, 250);
+    color: white;
     display: block;
     padding: .5rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: rgb(237, 239, 241);
+    color: white;
 }
 
 h1 {
@@ -65,7 +65,7 @@ aside {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
-    color: #333;
+    color: white;
     text-align: center;
 
     position: relative;
@@ -110,5 +110,5 @@ aside h2 {
 }
 
 a {
-    color: black;
+    color: white;
 }
