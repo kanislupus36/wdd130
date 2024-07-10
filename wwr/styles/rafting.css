@@ -23,6 +23,7 @@
   h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
     font-size: var(--heading-font-size);
+    text-align: center;
   }
   
   p {
@@ -165,5 +166,67 @@ footer p {
   display: flex;
 }
 
+form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: .5rem;
+  background-color: steelblue;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: .5rem;
+  color: black;
+  font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+  text-align: left;
+  padding-right: 1rem;
+  margin: .5rem;
+}
+
+input, select, textarea {
+  padding: .5rem;
+  font-size: 1.1rem;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: .5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
 
   
