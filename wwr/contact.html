@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title> Whitewater Rafting Contact Us</title>
+        <meta name="description" content="rafting, web dev, contact us">
+        <meta name="author" content="Kadin Adams">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header class="grid">
+            <img src="images/rafting.jpg" alt="Rafting Site Logo" width="200">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Contact Us</h1>
+            <p>Address: 1111 S East Road</p>
+            <p>Phone: 800 555 5555</p>
+            <p>Email: whitewaterrafting@email.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3169.3871677261372!2d-110.50808220913818!3d33.80156407774969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1720585877752!5m2!1sen!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section class="gallery">
+            <figure>
+                <img src="images/friendly.jpg" alt="Friendly Employee" width="200">
+                <figcaption>Friendly Employee</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy_employees.jpg" alt="Great Employees" width="200">
+                <figcaption>Great Employees</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy.png" alt="Happy Employee" width="200">
+                <figcaption>Happy Employee</figcaption>
+            </figure>            
+            </section>
+            <form>
+                <fieldset>
+                    <legend>Fill Out This Form</legend>
+                    <div class="form-item column2">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="form-item column1">
+                    <label for="purpose">Reason for reaching out:</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="general inquiry" name="answer">
+                    <label for="general inquiry">General Inquiry</label>
+                    <input type="radio" id="reservation question" name="answer">
+                    <label for="reservation question">Reservation Question</label>
+                    <input type="radio" id="website suggestion" name="answer">
+                    <label for="website suggestion">Website Suggestion</label>  
+                    </div>
+                    <div class="form-item">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter here"></textarea>
+                    </div>
+                    <div class="form-item column1">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Request</button>
+            </form>
+        </main>
+        <footer class="grid">
+            <p>© 2024, Whitewater Rafting, Kadin Adams</p>
+            <!-- <p><a href="https://wireframe.cc/">Wireframe</a></p> -->
+            <nav class="sociallinks">
+                <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            </nav>
+        </footer>
+    </body>
+</html>

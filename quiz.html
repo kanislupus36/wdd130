@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>Quiz Form</title>
+        <meta name="description" content="html and css quiz">
+        <meta name="author" content="Kadin Adams">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>HTML & CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column2">
+                    <label for="q1">What does CSS stand for?</label>
+                    <input type="text" id="q1" name="q1">
+                    </div>
+                    <div class="form-item">
+                        <label for="q2">Write a correct h1 tag:</label>
+                        <textarea id="q2" name="q2" rows="4" placeholder="Enter here"></textarea>
+                    </div>
+                    <div class="form-item column1">
+                    <label for="q3">What does HTML stand for?</label>
+                    <select id="q3" name="q3">
+                        <option value="Historic Transfer Markup Language">Historic Transfer Markup Language</option>
+                        <option value="Happy Times Main Language">Happy Times Main Language</option>
+                        <option value="Hyper Text Markup Language">Hyper Text Markup Language</option>
+                        <option value="Hysterical Text Massive Language">Hysterical Text Massive Language</option>    
+                    </select>
+                    </div>
+                    <div class="form-item column1">
+                    <label for="q4">How many letters are in HTML?</label>
+                    <input type="number" id="q4" name="q4">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
